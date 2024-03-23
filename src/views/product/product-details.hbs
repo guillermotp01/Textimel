@@ -1,0 +1,72 @@
+<!-- DETALLES DEL PRODUCTO -->
+<div class="producto container col-md-6 mb-3 card mt-4">
+    <div class="mx-3 card-body d-flex">
+        <img src="{{product.imagen}}" alt="Imagen del producto" class="img-detalle">
+        <div class="mx-5">
+            <h2 class="card-title">{{product.nombre}}</h2>
+            <p class="card-text">{{product.descripcion}}</p>
+            <p class="card-text"><strong>Color:</strong> {{product.color}}</p>
+
+            <div class="d-flex flex-column">
+                <strong>Seleccione una talla</strong>
+                <!-- Opciones de selección de talla -->
+                <div class="tallas d-flex mt-1">
+                    <div class="talla mx-1" onclick="seleccionarTalla('S')">S</div>
+                    <div class="talla mx-1" onclick="seleccionarTalla('M')">M</div>
+                    <div class="talla mx-1" onclick="seleccionarTalla('L')">L</div>
+                    <div class="talla mx-1" onclick="seleccionarTalla('XL')">XL</div>
+                </div>
+
+                <strong class="mt-2">Cantidad</strong>
+                <div class="d-flex align-items-center">
+                    <div class="talla mx-1">-</div>
+                    <span class="mx-2">1</span>
+                    <div class="talla mx-1">+</div>
+                </div>
+            </div>
+
+            <div class="d-flex mt-3 justify-content-between align-items-center">
+                <h4 class="card-text"><strong>S/.{{product.precio}}</strong></h4>
+
+                <button class="btn btn-success">
+                    Agregar al Carro
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- COMENTARIOS -->
+<div class="comentarios container col-md-6 card mb-4">
+    <div class="mx-2 card-body d-flex justify-content-between align-items-center">
+        <h3>Valoraciones y Reseñas</h3>
+        <button class="btn btn-success">
+            Agregar Comentario
+        </button>
+    </div>
+    <div class="mx-5">
+        <strong>Calificaciones General</strong>
+        <div class="mt-2 d-flex">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <p class="mx-3">4/5</p>
+        </div>
+    </div>
+
+
+    <div class="mx-5">
+        <strong>Por Julio</strong>
+        <div class="mt-2 d-flex">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <p class="mx-3">Muy buen producto, calidad de primera.</p>
+        </div>
+    </div>
+</div>

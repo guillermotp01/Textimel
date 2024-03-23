@@ -1,0 +1,310 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camisa de Vestir",
+        "descripción": "Camisa de vestir elegante, perfecta para ocasiones formales.",
+        "precio": 49.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Blanco",
+        "stock": {
+            "S": 15,
+            "M": 20,
+            "L": 18,
+            "XL": 12
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3933215/Camisa-en-algodon-premium-Slim-Fit---Blanco---H-M-PE.jpg?v=638321824864800000"
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalones Chinos",
+        "descripción": "Pantalones chinos de calidad en color beige.",
+        "precio": 34.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Beige",
+        "stock": {
+            "S": 25,
+            "M": 30,
+            "L": 20,
+            "XL": 15
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3449350/Pantalon-en-mezcla-de-lino-Regular-Fit---Beige---H-M-PE.jpg?v=638135230859130000"
+    },
+    {
+        "id": 3,
+        "nombre": "Camiseta de Manga Corta",
+        "descripción": "Camiseta de manga corta negra para uso diario, cómoda y transpirable.",
+        "precio": 19.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Negro",
+        "stock": {
+            "S": 35,
+            "M": 30,
+            "L": 28,
+            "XL": 22
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/4002287/Polo-Regular-Fit---Negro---H-M-PE.jpg?v=638322653707270000"
+    },
+    {
+        "id": 4,
+        "nombre": "Sudadera con Capucha",
+        "descripción": "Sudadera con capucha negra ideal para el invierno, cálida y cómoda.",
+        "precio": 44.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Negro",
+        "stock": {
+            "S": 20,
+            "M": 25,
+            "L": 18,
+            "XL": 15
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3958946/Polera-con-capucha-Relaxed-Fit---Negro---H-M-PE.jpg?v=638322148439600000"
+    },
+    {
+        "id": 5,
+        "nombre": "Jeans Slim Fit",
+        "descripción": "Jeans slim fit negros modernos y cómodos para cualquier ocasión.",
+        "precio": 54.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Negro",
+        "stock": {
+            "S": 15,
+            "M": 20,
+            "L": 18,
+            "XL": 12
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3825278/Slim-Jeans---Negro---H-M-PE.jpg?v=638278637975530000"
+    },
+    {
+        "id": 6,
+        "nombre": "Camiseta Deportiva",
+        "descripción": "Camiseta deportiva para correr y entrenar, ligera y cómoda.",
+        "precio": 59.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Negro",
+        "stock": {
+            "S": 20,
+            "M": 25,
+            "L": 18,
+            "XL": 15
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3286613/Polo-de-deporte-en-DryMove™---Negro---H-M-PE.jpg?v=638080769724630000"
+    },
+        {
+        "id": 7,
+        "nombre": "Blazer Slim",
+        "descripción": "Blazer Slim completo marrón para ocasiones especiales y reuniones de negocios.",
+        "precio": 129.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Marrón",
+        "stock": {
+            "S": 15,
+            "M": 20,
+            "L": 18,
+            "XL": 12
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3719347/Blazer-Regular-Fit---Marron-oscuro---H-M-PE.jpg?v=638238883491970000"
+    },
+    {
+        "id": 8,
+        "nombre": "Cazadora de Cuero",
+        "descripción": "Cazadora de cuero negra genuina, estilo clásico y duradera.",
+        "precio": 79.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Negro",
+        "stock": {
+            "S": 18,
+            "M": 22,
+            "L": 20,
+            "XL": 15
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3359036/Casaca---Negro---H-M-PE.jpg?v=638104139105330000"
+    },
+    {
+        "id": 9,
+        "nombre": "Shorts de Playa",
+        "descripción": "Shorts de playa cómodos de color azul para actividades al aire libre.",
+        "precio": 29.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Azul",
+        "stock": {
+            "S": 40,
+            "M": 35,
+            "L": 30,
+            "XL": 25
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3671697/Ropa-de-baño---Azul-marino---H-M-PE.jpg?v=638214685914900000"
+    },
+    {
+        "id": 10,
+        "nombre": "Jersey de Lana",
+        "descripción": "Jersey de lana gris perfecto para mantenerse abrigado en invierno.",
+        "precio": 64.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Gris",
+        "stock": {
+            "S": 22,
+            "M": 25,
+            "L": 20,
+            "XL": 18
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3934690/Chompa-tejida-en-punto-fino-de-algodon-Slim-Fit---Gris-claro-jaspeado---H-M-PE.jpg?v=638321842341770000"
+    },
+    {
+        "id": 11,
+        "nombre": "Sombrero de Paja",
+        "descripción": "Sombrero de paja estilo fedora para días soleados y de playa.",
+        "precio": 19.99,
+        "tallas": ["M", "L"],
+        "color": "Natural",
+        "stock": {
+            "M": 30,
+            "L": 25
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/2235303/Sombrero-de-paja---Beige---H-M-PE.jpg?v=637808192637170000"
+    },
+    {
+        "id": 12,
+        "nombre": "Bermudas de Verano",
+        "descripción": "Bermudas de verano en color caqui para un estilo relajado.",
+        "precio": 24.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Caqui",
+        "stock": {
+            "S": 35,
+            "M": 30,
+            "L": 28,
+            "XL": 22
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3677680/Bermudas-de-algodon-Relaxed-Fit---Verde-caqui---H-M-PE.jpg?v=638219025495700000"
+    },
+    {
+        "id": 13,
+        "nombre": "Buzo",
+        "descripción": "Buzo negro ideal para el diario y estar comodo ",
+        "precio": 69.99,
+        "tallas": ["S", "M", "L"],
+        "color": "Negro",
+        "stock": {
+            "S": 15,
+            "M": 20,
+            "L": 18
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3974636/Joggers-de-algodon-Relaxed-Fit---Negro---H-M-PE.jpg?v=638322329622600000"
+    },
+    {
+        "id": 14,
+        "nombre": "Gorra de Béisbol",
+        "descripción": "Gorra de béisbol Beige con logo bordado, ideal para un estilo casual.",
+        "precio": 14.99,
+        "tallas": ["M"],
+        "color": "Beige",
+        "stock": {
+            "M": 40
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/2732688/Gorra-de-algodon---Blanco-Beige---H-M-PE.jpg?v=637879463827470000"
+    },
+    {
+        "id": 15,
+        "nombre": "Abrigo de Invierno",
+        "descripción": "Abrigo de invierno acolchado en color gris, cálido y elegante.",
+        "precio": 79.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Gris",
+        "stock": {
+            "S": 20,
+            "M": 25,
+            "L": 18,
+            "XL": 15
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3813220/Casaca-de-buzo-con-funcion-de-secado-rapido---Gris-jaspeado---H-M-PE.jpg?v=638274336374970000"
+    },
+    {
+        "id": 16,
+        "nombre": "Corbata de Seda",
+        "descripción": "Corbata de seda negra para ocasiones formales y eventos especiales.",
+        "precio": 24.99,
+        "tallas": ["S"],
+        "color": "Negro",
+        "stock": {
+            "S": 50
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3122677/Corbata-michi---Black---H-M-PE.jpg?v=638008194208500000"
+    },
+    {
+        "id": 17,
+        "nombre": "Sudadera con Cremallera",
+        "descripción": "Sudadera con cremallera negra y capucha, perfecta para el uso diario.",
+        "precio": 39.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Negro",
+        "stock": {
+            "S": 30,
+            "M": 28,
+            "L": 25,
+            "XL": 20
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3276376/Casaca-polera-de-algodon-Oversized-Fit---Negro-apagado---H-M-PE.jpg?v=638078177378400000"
+    },
+    {
+        "id": 18,
+        "nombre": "Polo Clásico",
+        "descripción": "Polo clásico en color blanco, ideal para un estilo casual y elegante.",
+        "precio": 29.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Blanco",
+        "stock": {
+            "S": 40,
+            "M": 35,
+            "L": 30,
+            "XL": 25
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3385702/Polo-Relaxed-Fit---Gris-claro-jaspeado---H-M-PE.jpg?v=638116190802270000"
+    },
+    {
+        "id": 19,
+        "nombre": "Calcetines Deportivos",
+        "descripción": "Calcetines deportivos en color gris, cómodos y transpirables.",
+        "precio": 9.99,
+        "tallas": ["M"],
+        "color": "Gris",
+        "stock": {
+            "M": 100
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3401878/Medias-de-deporte-en-DryMove%E2%84%A2---Grey-marl---H-M-PE.jpg?v=638121375326470000"
+    },
+    {
+        "id": 20,
+        "nombre": "Chaqueta Bomber",
+        "descripción": "Chaqueta bomber en color verde oliva, perfecta para un estilo urbano.",
+        "precio": 49.99,
+        "tallas": ["S", "M", "L", "XL"],
+        "color": "Verde Oliva",
+        "stock": {
+            "S": 25,
+            "M": 22,
+            "L": 20,
+            "XL": 18
+        },
+        "genero": "Hombre",
+        "imagen": "https://hmperu.vtexassets.com/arquivos/ids/3452549/Casaca-de-correr-ligera---Verde-salvia---H-M-PE.jpg?v=638135251125000000"
+    }
+]

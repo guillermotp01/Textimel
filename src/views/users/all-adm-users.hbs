@@ -1,0 +1,33 @@
+<div class="productos container p-5">
+    <div class="productos-titulo card-header text-center">
+        <h1>Administrar Usuarios</h1>
+    </div>
+    <div class="row">
+        {{#each users}}
+            <div class="col-12 col-md-4">
+                <div class="mb-3 card">
+                    <div class="mx-3 card-body">
+                        <div class="d-flex align-items-start">
+                            <div>
+                                <p>NOMBRE: {{nombre}} </p>
+                                <p>APELLIDO: {{apellido}}</p>
+                                <p>DNI: {{dni}}</p>
+                                <p>ROL: {{rol}}</p>
+                                <p>CORREO: {{correo}}</p>
+                            </div>
+                        </div>
+                        <div class="btn-group mx-2" role="group" aria-label="Actualizar y Eliminar">
+                            <a href="/users/edit/{{_id}}"></i>
+                                <button type="submit" class="btn btn-success btn-sm mx-2">Actualizar</button>
+                            </a>
+                            <form action="/users/delete/{{_id}}?_method=DELETE" method="POST">
+                                <input type="hidden" name="_method" value="DELETE">
+                                <button type="submit" class="btn btn-danger btn-sm mx-2">Eliminar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

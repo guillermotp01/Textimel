@@ -1,0 +1,142 @@
+[
+    {
+      "nombre": "Pantalón Casual para Mujer",
+      "descripcion": "Pantalón casual de algodón en color beige para uso diario, cómodo y versátil.",
+      "precio": 34.99,
+      "stock": {
+        "S": 20,
+        "M": 25,
+        "L": 18,
+        "XL": 15
+      },
+      "color": "Beige",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/pantalon1.jpg"
+    },
+    {
+      "nombre": "Sombrero de Paja para Playa",
+      "descripcion": "Sombrero de paja tejido a mano, perfecto para protegerse del sol en la playa o piscina.",
+      "precio": 19.99,
+      "stock": {
+        "S": 30,
+        "M": 30,
+        "L": 30,
+        "XL": 30
+      },
+      "color": "Natural",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/sombrero1.jpg"
+    },
+    {
+      "nombre": "Calcetines Deportivos para Mujer",
+      "descripcion": "Pack de 3 pares de calcetines deportivos en colores variados, ideales para actividades físicas.",
+      "precio": 12.99,
+      "stock": {
+        "S": 50,
+        "M": 50,
+        "L": 50,
+        "XL": 50
+      },
+      "color": "Multicolor",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/medias1.jpg"
+    },
+    {
+      "nombre": "Camiseta de Manga Corta para Mujer",
+      "descripcion": "Camiseta de manga corta negra con un diseño moderno para ocasiones casuales.",
+      "precio": 24.99,
+      "stock": {
+        "S": 15,
+        "M": 18,
+        "L": 12,
+        "XL": 9
+      },
+      "color": "Negro",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/camiseta1.jpg"
+    },
+    {
+      "nombre": "Sudadera con Capucha para Mujer",
+      "descripcion": "Sudadera con capucha gris, cálida y cómoda para los días fríos de invierno.",
+      "precio": 39.99,
+      "stock": {
+        "S": 10,
+        "M": 12,
+        "L": 8,
+        "XL": 6
+      },
+      "color": "Gris",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/sudadera1.jpg"
+    },
+    {
+      "nombre": "Chompa Tejida para Mujer",
+      "descripcion": "Chompa tejida a mano en lana, con un diseño elegante y abrigado para el invierno.",
+      "precio": 49.99,
+      "stock": {
+        "S": 8,
+        "M": 10,
+        "L": 7,
+        "XL": 5
+      },
+      "color": "Gris",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/chompa1.jpg"
+    },
+    {
+      "nombre": "Pantalón Deportivo para Mujer",
+      "descripcion": "Pantalón deportivo negro con ajuste elástico, ideal para entrenamientos y actividades deportivas.",
+      "precio": 29.99,
+      "stock": {
+        "S": 20,
+        "M": 25,
+        "L": 18,
+        "XL": 15
+      },
+      "color": "Negro",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/pantalon2.jpg"
+    },
+    {
+      "nombre": "Gorra de Béisbol para Mujer",
+      "descripcion": "Gorra de béisbol clásica en color azul marino, perfecta para protegerse del sol con estilo.",
+      "precio": 14.99,
+      "stock": {
+        "S": 30,
+        "M": 30,
+        "L": 30,
+        "XL": 30
+      },
+      "color": "Azul Marino",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/sombrero2.jpg"
+    },
+    {
+      "nombre": "Calcetines de Vestir para Mujer",
+      "descripcion": "Pack de 5 pares de calcetines de vestir en colores sólidos, ideales para ocasiones formales.",
+      "precio": 16.99,
+      "stock": {
+        "S": 50,
+        "M": 50,
+        "L": 50,
+        "XL": 50
+      },
+      "color": "Negro",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/medias2.jpg"
+    },
+    {
+      "nombre": "Sudadera con Capucha para Mujer",
+      "descripcion": "Sudadera con capucha rosa, cálida y cómoda para el invierno, con un toque femenino.",
+      "precio": 34.99,
+      "stock": {
+        "S": 15,
+        "M": 18,
+        "L": 12,
+        "XL": 9
+      },
+      "color": "Rosa",
+      "genero": "Mujer",
+      "imagen": "https://ejemplo.com/sudadera2.jpg"
+    }
+  ]

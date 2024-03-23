@@ -1,0 +1,281 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f6f7;
+}
+/* Barra de Navegacion*/
+
+.header-principal{
+    background-color: #accedb;
+    width: 100%;
+}
+
+.navbar{
+    background-color: #accedb;
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+
+.header-acciones{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+    text-align: center;
+}
+
+/*Iniciar Sesion*/
+
+.header-inicioSesion {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-izquierda {
+    margin-right: 10px; /* Ajusta el espaciado entre la imagen y el contenido */
+}
+
+.etiqueta {
+    display: block; /* Hace que el enlace ocupe toda la anchura */
+    margin-top: auto; /* Ajusta el espaciado entre el saludo y el enlace "Inicia Sesión" */
+}
+
+
+/*seccion principal(hero)*/
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+    align-items: center;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+
+
+/* FOOTER */
+
+.footer-principal{
+    width: 100%;
+    background-color: #accedb; /* Cambia el color de fondo según tus preferencias */
+    color: #000; /* Cambia el color del texto según tus preferencias */
+    padding: 10px; /* Agrega espaciado interno según tus preferencias */
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+
+
+/* REGISTRO DE USUARIOS */
+
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f7;
+}
+
+.registro-contenido{
+    background-color:  #fff;
+    height: 80%;
+    width: 60%;
+    border-radius: 2%;
+}
+
+.registro-formulario {
+    padding: 2rem;
+    width: 50%; /* Ajusta el ancho según tus preferencias */
+    padding: 20px; /* Agrega espaciado interno según tus preferencias */
+}
+
+.registro-descripcion {
+    padding: 2rem;
+    width: 50%; /* Ajusta el ancho según tus preferencias */
+    padding: 20px; /* Agrega espaciado interno según tus preferencias */
+}
+
+.formulario-contenido{
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.formulario-btn{
+    margin: 2rem;
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    margin-left: 2rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.body-input-nombre, 
+.body-input-apellido, 
+.body-input-dni,
+.body-input-email,
+.body-input-contraseña{
+    border: none;
+    border-bottom: 1px solid #ccc; /* Agrega una línea de fondo */
+    border-radius: 0; /* Elimina la esquina redondeada (opcional) */
+    padding: 8px 0; /* Alinea el texto verticalmente en el centro de la línea */
+}
+
+.registro-descripcion-contenido{
+    margin: 4rem 0 0 2rem;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+}
+
+
+/* INICIO DE SESION USUARIOS*/
+
+.inicio,
+.actualizar{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f7;
+}
+
+.inicio-contenido,
+.actualizar-contenido{
+    background-color:  #fff;
+    height: 40%;
+    width: 35%;
+    border-radius: 2%;
+}
+
+.inicio-formulario,
+.actualizar-formulario {
+    padding: 2rem;
+    width: 100%; /* Ajusta el ancho según tus preferencias */
+    padding: 20px; /* Agrega espaciado interno según tus preferencias */
+}
+
+
+/* pagina de productos */
+
+
+/* PERFIL DE LOS USUARIOS*/
+
+.perfil{
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f7;
+}
+
+.perfil-contenido{
+    background-color:  #fff;
+    height: 90%;
+    width: 50%;
+    border-radius: 2%;
+}
+
+.perfil-opciones {
+    padding: 2rem;
+    width: 30%; /* Ajusta el ancho según tus preferencias */
+    padding: 20px; /* Agrega espaciado interno según tus preferencias */
+}
+
+.perfil-datos {
+    padding: 2rem;
+    width: 50%; /* Ajusta el ancho según tus preferencias */
+    padding: 20px; /* Agrega espaciado interno según tus preferencias */
+}
+
+
+.beneficios-contenido,
+.productos-calidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae8e8
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(206, 201, 201); /* Color de la línea, puedes cambiarlo según tus preferencias */
+}
+
+/*NOSOTROS*/
+.descripcion-nosotros{
+    font-size: larger;
+}
+
+
+/* DETALLES DE PRODUCTOS */
+
+.talla{
+    border-radius: 10%;
+    background-color: #D9D9D9;
+    width: 30px;
+    height: 27px;
+    text-align: center;
+}
+
+.producto{
+    width: 930px;
+    height: 361px;
+}
+
+.img-detalle{
+    width: 299px;
+    height: 311px;
+}
+
+.comentarios{
+    width: 930px;
+    height: 230px;
+}
+
+/* lista de productos*/
+.precios-detalles{
+    background-color: #fff;
+    width: 286px;
+    height: 318px;
+}
+.lista-producto{
+    background-color: #fff;
+    width: 780px;
+    height: 200px;
+}

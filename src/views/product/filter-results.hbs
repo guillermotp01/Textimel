@@ -1,0 +1,138 @@
+<div class="productos container p-5">
+    <div class="row">
+        {{#if products.length}}
+        <div class="">
+            <h1>Productos</h1>
+        </div>
+        <div class="col-md-3">
+            <div class="mb-3">
+                <form action="/product/filter" method="GET">
+                    <h4>Filtrar por:</h4>
+                    <div class="form-group">
+                        <label for="colorFilter">Color</label>
+                        <select class="form-control" id="colorFilter" name="color">
+                            <option value=""> -- Seleccione el Color --</option>
+                            <option value="Beige">Beige</option>
+                            <option value="Negro">Negro</option>
+                            <option value="Blanco">Blanco</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Marron">Marrón</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="priceFilter">Precio</label>
+                        <select class="form-control" id="priceFilter" name="precio">
+                            <option value=""> -- Seleccione el Precio --</option>
+                            <option value="0-20">Menos de S/.20</option>
+                            <option value="20-50">S/.20 - S/.50</option>
+                            <option value="50-100">S/.50 - S/.100</option>
+                            <option value="100-200">S/.100 - S/.200</option>
+                            <option value="200+">Más de S/.200</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="genderFilter">Género</label>
+                        <select class="form-control" id="genderFilter" name="genero">
+                            <option value=""> -- Seleccione el Genero --</option>
+                            <option value="Hombre">Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="sizeFilter">Talla</label>
+                        <select class="form-control" id="sizeFilter" name="talla">
+                            <option value=""> -- Seleccione la Talla --</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Aplicar Filtros</button>
+                    <!-- Cerrar el botón correctamente -->
+                </form>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <!-- Resultados de la búsqueda -->
+            <ul class="row">
+                {{#if user}}
+                {{#ifCond user.rol '===' 'admin'}}
+                {{#each products}}
+                <div class="col-12 col-md-4">
+                    <div class="mb-3 card">
+                        <div class="mx-3 card-body">
+                            <img src="{{imagen}}" alt="Imagen del producto" class="card-img-top">
+                            <h5 class="card-title">{{nombre}}</h5>
+                            <p class="card-text">Color: {{color}}</p>
+                            <p class="card-text">Precio: S/.{{precio}}</p>
+                            <div class="btn-group mx-2" role="group" aria-label="Opciones del Producto">
+                                <!-- Actualizar y Eliminar solo para administradores -->
+                                <a href="/product/edit/{{_id}}">
+                                    <button type="button" class="btn btn-success btn-sm mx-2">Actualizar</button>
+                                </a>
+                                <form action="/product/delete/{{_id}}?_method=DELETE" method="POST">
+                                    <input type="hidden" name="_method" value="DELETE">
+                                    <button type="submit" class="btn btn-danger btn-sm mx-2">Eliminar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+                {{else}}
+                {{#each products}}
+                <div class="col-12 col-md-4">
+                    <div class="mb-3 card">
+                        <div class="mx-3 card-body">
+                            <img src="{{imagen}}" alt="Imagen del producto" class="card-img-top">
+                            <h5 class="card-title">{{nombre}}</h5>
+                            <p class="card-text">Color: {{color}}</p>
+                            <p class="card-text">Precio: S/.{{precio}}</p>
+                            <div class="btn-group mx-2" role="group" aria-label="Opciones del Producto">
+                                <!-- Agregar al Carro para todos los usuarios -->
+                                <form action="/cart/add/{{_id}}" method="POST">
+                                    <button type="submit" class="btn btn-success btn-sm mx-2">Agregar al Carro</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+                {{/ifCond}}
+                {{else}}
+                {{#each products}}
+                <div class="col-12 col-md-4">
+                    <div class="mb-3 card">
+                        <div class="mx-3 card-body">
+                            <img src="{{imagen}}" alt="Imagen del producto" class="card-img-top">
+                            <h5 class="card-title">{{nombre}}</h5>
+                            <p class="card-text">Color: {{color}}</p>
+                            <p class="card-text">Precio: S/.{{precio}}</p>
+                            <div class="btn-group mx-2" role="group" aria-label="Opciones del Producto">
+                                <!-- Agregar al Carro para usuarios no registrados -->
+                                <form action="/cart/add/{{_id}}" method="POST">
+                                    <button type="submit" class="btn btn-success btn-sm mx-2">Agregar al Carro</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+                {{/if}}
+            </ul>
+        </div>
+        {{else}}
+        <!-- Bloque para cuando no se encuentran productos -->
+        <div class="col-12 text-center align-items-center p-5 m-5">
+            <div>
+                <img src="/img/extraviado.png" width="90" alt="producto no encontrado">
+            </div>
+            <div class="alert" role="alert">
+                Producto no encontrado.
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</div>
+

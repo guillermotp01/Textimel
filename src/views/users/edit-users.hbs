@@ -1,0 +1,48 @@
+<div class="container p-5">
+    <div class="card mx-auto" style="max-width: 600px;">
+        <div class="card-header text-center">
+            <h3>Actualizar Usuario</h3>
+        </div>
+        <form class="p-5" action="/users/edit/{{us.id}}?_method=PUT" method="POST">
+            <input type="hidden" name="_method" value="PUT">
+            <div class="container">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input class="form-control mt-1 " type="text" name="nombre"
+                        placeholder="Ingresa tu nombre" value="{{nombre}}">
+                </div>
+
+                <div class="form-group mt-3 body-apellido">
+                    <label>Apellido</label>
+                    <input class="form-control mt-1 " type="text" name="apellido"
+                        placeholder="Ingresa tu apellido" value="{{apellido}}">
+                </div>
+
+                <div class="form-group mt-3 body-dni">
+                    <label>DNI</label>
+                    <input class="form-control mt-1 " type="text" name="dni" placeholder="Ingresa tu DNI"
+                        value="{{dni}}">
+                </div>
+
+                <div class="form-group mt-3 body-email">
+                    <label>Correo</label>
+                    <input class="form-control mt-1 " type="email" name="correo"
+                        placeholder="Ingresa un correo valido" value="{{correo}}">
+                </div>
+
+                <div class="form-group role-selector mt-3 body-rol">
+                    <label for="role">Selecciona un Rol:</label>
+                    <select id="role" name="rol" class="ml-auto">
+                        <option value="usuario">usuario</option>
+                        <option value="admin">admin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group formulario-btn justify-content-center align-items-center">
+                <button class="btn btn-primary btn-block w-100">
+                    Actualizar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
